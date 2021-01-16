@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bar.AbstractDrink">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAIAAAAAAAAAAAAAAAAECAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractDrink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.AlcoholDrink">
+    <Position X="7.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAIAAAAAAAABAAAAAAAACAAAAEAAAAAAAAA=</HashCode>
+      <FileName>AlcoholDrink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.BaseDrink">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAQAAAIAAAAAAAAAAAAAAAAACAAAAAAAAAACAAA=</HashCode>
+      <FileName>BaseDrink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.ComplexDrink">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEAAAAAAAAIAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComplexDrink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

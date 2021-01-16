@@ -6,7 +6,7 @@ namespace Bar
 {
     public class AlcoholDrink : BaseDrink
     {
-        private double addTax;
+        private readonly double addTax;
 
         public AlcoholDrink(string name, double basePrice, double volume) : base(name, basePrice, volume)
         {
@@ -20,7 +20,7 @@ namespace Bar
 
         public override double GetVolume()
         {
-            return this.volume;
+            return volume;
         }
 
         public void SetBasePrice(double basePrice)
@@ -30,7 +30,7 @@ namespace Bar
 
         public override double CountPrice()
         {
-            return this.basePrice * this.volume * this.addTax / 100;
+            return basePrice * volume * addTax / 100;
         }
 
         public override string GetComposition()

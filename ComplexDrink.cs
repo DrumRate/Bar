@@ -8,7 +8,7 @@ namespace Bar
 {
     public class ComplexDrink : AbstractDrink
     {
-        private List<AbstractDrink> ingridients = new List<AbstractDrink>();
+        private readonly List<AbstractDrink> ingridients = new List<AbstractDrink>();
 
         public ComplexDrink(string name, List<AbstractDrink> ingridients)
         {
@@ -24,7 +24,7 @@ namespace Bar
         public override double GetVolume()
         {
             double sum = 0;
-            foreach (AbstractDrink ingridient in this.ingridients)
+            foreach (AbstractDrink ingridient in ingridients)
             {
                 sum += ingridient.GetVolume();
             }
